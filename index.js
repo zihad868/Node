@@ -1,3 +1,5 @@
-var _ = require('lodash');
+const path = require('path')
 
-console.log(_.last([1, 5, 3]))
+const myPath = '/home/zihad/Desktop/Node/index.js'
+
+console.log(path.parse(myPath))
